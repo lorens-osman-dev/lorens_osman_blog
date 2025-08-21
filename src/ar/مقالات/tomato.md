@@ -6,6 +6,7 @@ tag:
   - أحمر
   - صحي
 date: 2024-01-06
+icon: pen-to-square
 ---
 
 # طماطم

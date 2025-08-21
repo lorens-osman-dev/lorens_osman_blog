@@ -11,7 +11,8 @@ export default hopeTheme({
 		url: "https://mister-hope.com",
 		email: "asdas@gg.com",
 	},
-
+	prevLink: false,
+	nextLink: false,
 	logo: "/444.svg",
 
 	// repo: "vuepress-theme-hope/vuepress-theme-hope",
@@ -251,6 +252,7 @@ export default hopeTheme({
 			disableSelection: true,
 			author: "Lorens Osman",
 		},
+
 		// install @vuepress/plugin-pwa and uncomment these if you want a PWA
 		// pwa: {
 		//   favicon: "/favicon.ico",

@@ -1,1 +1,19 @@
 // place your custom styles here
+html[dir="rtl"] .vp-sidebar-links {
+  margin: 0 0.85em 0 0;
+}
+
+#sidebar>ul {
+  margin: 0;
+}
+
+.vp-appearance-wrapper {
+
+
+  .vp-color-mode {
+    display: grid;
+    justify-items: center;
+    border-bottom: 1px solid var(--vp-c-border);
+    border-top: 1px solid var(--vp-c-border);
+  }
+}

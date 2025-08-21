@@ -1,6 +1,6 @@
 ---
 title: إعدادات الصفحة
-icon: page
+icon: file
 order: 1
 category:
   - دليل

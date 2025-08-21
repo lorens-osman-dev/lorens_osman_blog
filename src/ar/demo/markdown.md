@@ -1,6 +1,6 @@
 ---
 title: ترميز ماركداون
-icon: fab fa-markdown
+icon: fa6-brands:markdown
 order: 2
 category:
   - دليل

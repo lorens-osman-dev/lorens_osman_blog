@@ -6,6 +6,7 @@ tag:
   - أحمر
   - حلو
 date: 2024-01-05
+icon: pen-to-square
 ---
 
 # فراولة
