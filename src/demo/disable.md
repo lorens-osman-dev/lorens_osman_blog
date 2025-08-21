@@ -7,7 +7,7 @@ category:
 tag:
   - disable
 
-navbar: false
+
 sidebar: false
 
 breadcrumb: false

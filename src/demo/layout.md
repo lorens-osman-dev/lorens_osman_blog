@@ -6,6 +6,7 @@ category:
   - Guide
 tag:
   - Layout
+copyright: 
 ---
 
 The layout contains:

@@ -3,23 +3,23 @@ import { defineUserConfig } from "vuepress";
 import theme from "./theme.js";
 
 export default defineUserConfig({
-  base: "/",
+	base: "/",
 
-  locales: {
-    "/": {
-      lang: "en-US",
-      title: "Blog Demo",
-      description: "A blog demo for vuepress-theme-hope",
-    },
-    "/zh/": {
-      lang: "zh-CN",
-      title: "博客演示",
-      description: "vuepress-theme-hope 的博客演示",
-    },
-  },
+	locales: {
+		"/": {
+			lang: "en-US",
+			title: "Blog fffff Demo",
+			description: "A blog demo for vuepress-theme-hope",
+		},
+		"/ar/": {
+			lang: "ar-SA",
+			title: "عرض للمدونة",
+			description: "عرض لمدونة VuePress-Theme-Hope",
+		},
+	},
 
-  theme,
+	theme,
 
-  // Enable it with pwa
-  // shouldPrefetch: false,
+	// Enable it with pwa
+	// shouldPrefetch: false,
 });
