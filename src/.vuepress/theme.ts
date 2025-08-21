@@ -1,7 +1,7 @@
 import { hopeTheme } from "vuepress-theme-hope";
 
-import { enNavbar, zhNavbar, arNavbar } from "./navbar/index.js";
-import { enSidebar, zhSidebar, arSidebar } from "./sidebar/index.js";
+import { enNavbar, arNavbar } from "./navbar/index.js";
+import { enSidebar, arSidebar } from "./sidebar/index.js";
 
 export default hopeTheme({
 	hostname: "https://mister-hope.github.io",
@@ -12,10 +12,10 @@ export default hopeTheme({
 		email: "asdas@gg.com",
 	},
 
-	logo: "https://theme-hope-assets.vuejs.press/logo.svg",
+	logo: "/444.svg",
 
-	repo: "vuepress-theme-hope/vuepress-theme-hope",
-
+	// repo: "vuepress-theme-hope/vuepress-theme-hope",
+	hideSiteNameOnMobile: false,
 	docsDir: "src",
 	print: false,
 
@@ -52,26 +52,6 @@ export default hopeTheme({
 
 			metaLocales: {
 				editLink: "Edit this page on GitHub",
-			},
-		},
-
-		/**
-		 * Chinese locale config
-		 */
-		"/zh/": {
-			// navbar
-			navbar: zhNavbar,
-
-			// sidebar
-			sidebar: zhSidebar,
-
-			footer: "默认页脚",
-
-			displayFooter: true,
-
-			blog: {
-				description: "一个前端开发者",
-				intro: "/zh/intro.html",
 			},
 		},
 
@@ -137,7 +117,7 @@ export default hopeTheme({
 				empty: "لا توجد مقالات",
 			},
 			outlookLocales: {
-				darkmode: "الوضع المظلم",
+				darkmode: "لون السمة",
 				fullscreen: "ملء الشاشة",
 				themeColor: "لون السمة",
 			},

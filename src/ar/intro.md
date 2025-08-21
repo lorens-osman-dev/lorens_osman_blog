@@ -1,6 +1,7 @@
 ---
 title: مقدمة شخصية
 icon: circle-info
+cover: /assets/images/cover3.jpg
 ---
 
 # مقدمة شخصية

@@ -44,9 +44,4 @@ export const arNavbar = navbar([
 			"strawberry",
 		],
 	},
-	{
-		text: "توثيق V2",
-		icon: "book",
-		link: "https://theme-hope.vuejs.press/",
-	},
 ]);

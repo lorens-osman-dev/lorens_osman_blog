@@ -8,13 +8,13 @@ export default defineUserConfig({
 	locales: {
 		"/": {
 			lang: "en-US",
-			title: "Blog fffff Demo",
-			description: "A blog demo for vuepress-theme-hope",
+			title: "Al Political",
+			description: "Everything was impossible until someone did it",
 		},
 		"/ar/": {
 			lang: "ar-SA",
-			title: "عرض للمدونة",
-			description: "عرض لمدونة VuePress-Theme-Hope",
+			title: "تَوجِيهاتٌ سِياسِيةَ",
+			description: "كل شيئ كان مستحيلاً إلى أن قام به أحد",
 		},
 	},
 
