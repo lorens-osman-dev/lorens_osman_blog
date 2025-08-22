@@ -61,7 +61,10 @@ export default hopeTheme({
 		 */
 		"/ar/": {
 			// navbar
-
+			author: {
+				name: "لورنس عثمان",
+				url: "https://mister-hope.com",
+			},
 			navbar: arNavbar,
 			rtl: true,
 			// sidebar
