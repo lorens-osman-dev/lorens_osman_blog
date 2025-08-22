@@ -67,7 +67,7 @@ export default hopeTheme({
 			// sidebar
 			sidebar: arSidebar,
 
-			footer: "لا غالب الا الله",
+			footer: "لا غالب إلا الله",
 
 			displayFooter: true,
 

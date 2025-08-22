@@ -13,6 +13,7 @@ icon: pen-to-square
 
 الكرز من الفواكه اللذيذة والمفيدة للصحة.
 
+[لكرز من الفواكه اللذيذة](https://github.com/lorens-osman-dev/Glass-Robo/blob/main/src/partials/_fonts.scss)
 <!-- more -->
 
 ## فوائد الكرز

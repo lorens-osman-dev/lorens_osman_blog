@@ -1,7 +1,7 @@
 ---
 home: true
 layout: BlogHome
-icon: home
+icon: house
 title: الصفحة الرئيسية
 heroImage: /444.svg
 heroText: تَوجِيهاتٌ سِياسِيةَ
