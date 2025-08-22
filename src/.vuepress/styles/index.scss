@@ -111,3 +111,11 @@ h5,
 h6 {
   font-weight: bold;
 }
+
+//: toc 
+#toc {
+  // background: var(--vp-c-accent-soft);
+  background: #ffffff29;
+  backdrop-filter: blur(20px);
+
+}
