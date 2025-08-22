@@ -6,7 +6,7 @@ export const arNavbar = navbar([
 	{
 		text: "المقالات",
 		icon: "pen-to-square",
-		prefix: "/ar/مقالات/",
+		prefix: "/ar/posts/",
 		children: [
 			{
 				text: "تفاح",

@@ -13,7 +13,7 @@ export const arSidebar = sidebar({
 		{
 			text: "المقالات",
 			icon: "book",
-			prefix: "مقالات/",
+			prefix: "posts/",
 			children: "structure",
 		},
 		"intro",
