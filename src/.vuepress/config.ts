@@ -3,7 +3,8 @@ import { defineUserConfig } from "vuepress";
 import theme from "./theme.js";
 
 export default defineUserConfig({
-	base: "/",
+	// The base URL for the site, set to your repository name
+	base: "/lorens_osman_blog/",
 
 	locales: {
 		"/": {
