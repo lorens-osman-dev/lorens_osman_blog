@@ -5,7 +5,7 @@ import theme from "./theme.js";
 export default defineUserConfig({
 	// The base URL for the site, set to your repository name
 	base: "/lorens_osman_blog/",
-
+	lang: "ar-SA", // Set default site language to Arabic
 	locales: {
 		"/": {
 			lang: "en-US",

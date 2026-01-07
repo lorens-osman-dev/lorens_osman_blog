@@ -2,45 +2,36 @@ import { navbar } from "vuepress-theme-hope";
 
 export const enNavbar = navbar([
 	"/",
-	"/demo/",
+	// "/demo/",
 	{
 		text: "Posts",
 		icon: "pen-to-square",
 		prefix: "/posts/",
 		children: [
 			{
-				text: "Apple",
+				text: "directives",
 				icon: "pen-to-square",
-				prefix: "apple/",
-				children: [
-					{ text: "Apple1", icon: "pen-to-square", link: "1" },
-					{ text: "Apple2", icon: "pen-to-square", link: "2" },
-					"3",
-					"4",
-				],
-			},
-			{
-				text: "Banana",
-				icon: "pen-to-square",
-				prefix: "banana/",
+				prefix: "directives/",
 				children: [
 					{
-						text: "Banana 1",
-						icon: "pen-to-square",
+						text: "The First Directive - The Strong Support",
+						icon: "mdi:dot",
 						link: "1",
 					},
 					{
-						text: "Banana 2",
-						icon: "pen-to-square",
+						text: "The Second Directive - The Inevitability of Conflict",
+						icon: "mdi:dot",
 						link: "2",
 					},
-					"3",
-					"4",
+					{
+						text: "The Third Directive - Trump's Goats and the Illusion of Law",
+						icon: "mdi:dot",
+						link: "3",
+					},
 				],
 			},
-			{ text: "Cherry", icon: "pen-to-square", link: "cherry" },
 			{ text: "Dragon Fruit", icon: "pen-to-square", link: "dragonfruit" },
-			"tomato",
+			"tarbiya",
 			"strawberry",
 		],
 	},

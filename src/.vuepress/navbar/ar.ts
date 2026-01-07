@@ -2,45 +2,37 @@ import { navbar } from "vuepress-theme-hope";
 
 export const arNavbar = navbar([
 	"/ar/",
-	"/ar/demo/",
+	// "/ar/demo/",
 	{
 		text: "المقالات",
 		icon: "pen-to-square",
 		prefix: "/ar/posts/",
 		children: [
 			{
-				text: "تفاح",
+				text: "توجيهات",
 				icon: "pen-to-square",
-				prefix: "تفاح/",
-				children: [
-					{ text: "تفاح 1", icon: "pen-to-square", link: "1" },
-					{ text: "تفاح 2", icon: "pen-to-square", link: "2" },
-					"3",
-					"4",
-				],
-			},
-			{
-				text: "موز",
-				icon: "pen-to-square",
-				prefix: "banana/",
+				prefix: "directives/",
+
 				children: [
 					{
-						text: "موز 1",
-						icon: "pen-to-square",
+						text: "التوجيه الأول الركن الشديد",
+						icon: "mdi:dot",
 						link: "1",
 					},
 					{
-						text: "موز 2",
-						icon: "pen-to-square",
+						text: "التوجيه الثاني حتمية الصراع",
+						icon: "mdi:dot",
 						link: "2",
 					},
-					"3",
-					"4",
+					{
+						text: "التوجيه الثالث عنزة ترمب و وهم القانون",
+						icon: "mdi:dot",
+						link: "3",
+					},
 				],
 			},
-			{ text: "كرز", icon: "pen-to-square", link: "cherry" },
 			{ text: "فاكهة التنين", icon: "pen-to-square", link: "dragonfruit" },
-			"tomato",
+			"tarbiya",
 			"strawberry",
 		],
 	},
